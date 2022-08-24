@@ -45,6 +45,6 @@ void MainWindow::on_B_connect_clicked()
      ui->E_Boost->setText(QStringLiteral("127.0.0.1"));
      ui->E_MSFS->setText(QStringLiteral("127.0.0.1"));
 
-open_connections();
+    open_connections();
 }
 
